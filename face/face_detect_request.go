@@ -5,7 +5,6 @@ import "strings"
 // DetectRequest has request parameters for Detect API.
 type DetectRequest struct {
 	ImageURL         string             `url:"image_url,omitempty"`
-	ImageFile        string             `url:"image_file,omitempty"`
 	ImageBase64      string             `url:"image_base64,omitempty"`
 	ReturnLandmark   ReturnLandmarkType `url:"return_landmark,omitempty"`
 	ReturnAttributes ReturnAttributes   `url:"-"`
